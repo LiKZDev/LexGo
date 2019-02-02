@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/layoutNormalDark"
+      android:hint="@string/hint_message">
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="8" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <!--<com.google.android.material.textfield.TextInputLayout-->
+    <!--android:id="@+id/busStopNameLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/layoutNormalDark"-->
+    <!--android:hint="@string/input_bus_stop_name">-->
+
+    <!--<com.google.android.material.textfield.TextInputEditText-->
+    <!--android:id="@+id/busStopName"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingEnd="40dp" />-->
+
+    <!--</com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="34dp"-->
+    <!--android:layout_height="34dp"-->
+    <!--android:layout_gravity="end|bottom"-->
+    <!--android:layout_marginEnd="7dp"-->
+    <!--android:layout_marginBottom="12dp"-->
+    <!--android:background="@color/layoutNormalDark">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/busStopNameClear"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+    <!--android:clickable="true"-->
+    <!--android:focusable="true"-->
+    <!--android:src="@drawable/ic_cancel" />-->
+    <!--</FrameLayout>-->
+
+  </FrameLayout>
+
+
+</LinearLayout>

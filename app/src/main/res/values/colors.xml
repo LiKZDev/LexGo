@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name="colorPrimary">#2a56c6</color>
+  <color name="colorPrimaryDark">#1c3aa9</color>
+  <color name="colorPrimaryFocus">#023572</color>
+  <color name="colorPrimaryLight">#b9035ba7</color>
+  <color name="colorAccent">#FFC107</color>
+  <color name="colorAccentDark">#882900</color>
+  <color name="colorAccentDarker">#571A00</color>
+  <color name="colorAccentLight">#D43F00</color>
+  <color name="colorAccentLighter">#FF4C00</color>
+  <color name="dividerColor">#B6B6B6</color>
+  <color name="widgetBackgroundColor">#989898</color>
+  <color name="backgroundGrey">#E0E0E0</color>
+
+  <!--Layout press actions-->
+  <color name="layoutNormal">#ffffff</color>
+  <color name="layoutNormalDark">#f5f5f5</color>
+  <color name="layoutPressed">#ffe5e8e3</color>
+  <color name="layoutActionNormal">#fffafafa</color>
+  <color name="layoutActionDark">#fff4f4f4</color>
+  <color name="rippleBackground">#7d676767</color>
+  <!--Layout press transparent actions-->
+  <color name="layoutTransparent">#3c000000</color>
+  <color name="layoutTransparentDark">#78000000</color>
+  <color name="layoutNormalTransparent">#8cffffff</color>
+  <color name="layoutPressedTransparent">#8ce5e8e3</color>
+  <!--Layout Divider color-->
+  <color name="resultsLayoutDivider">#eeeeee</color>
+  <color name="resultsLayoutDividerLighter">#ffeaeaea</color>
+
+  <!--Text Color-->
+  <color name="primaryText">#212121</color>
+  <color name="secondaryText">#727272</color>
+  <color name="secondaryTextLight">#919191</color>
+  <color name="lightTextColor2">#bfd1d1d1</color>
+  <color name="lightTextColor">#ffd1d1d1</color>
+  <color name="lighterTextColor">#ffffffff</color>
+  <color name="transparentLightTextColor">#d6ffffff</color>
+  <color name="textColorWhite">#F5F5F5</color>
+  <color name="textColorTransparent">#64ffffff</color>
+  <color name="errorColor">#fff46b65</color>
+
+  <color name="iconWhite">#F5F5F5</color>
+  <color name="iconSelected">#F5F5F5</color>
+  <color name="iconUnselected">#78212121</color>
+
+  <!--Bus Colors-->
+  <color name="SBSTLight">#CE93D8</color>
+  <color name="SMRTLight">#EF9A9A</color>
+  <color name="TTSLight">#A5D6A7</color>
+  <color name="GASLight">#FFE082</color>
+  <color name="SBSTLighter">#E1BEE7</color>
+  <color name="SMRTLighter">#FFCDD2</color>
+
+  <!--Load colors-->
+  <color name="loadNone">#9E9E9E</color>
+  <color name="loadSEA">#4CAF50</color>
+  <color name="loadSDA">#FF9800</color>
+  <color name="loadLSD">#F44336</color>
+</resources>

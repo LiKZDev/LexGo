@@ -1,0 +1,26 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
+  <dimen name="card_title">18sp</dimen>
+  <dimen name="card_case_number">18sp</dimen>
+  <dimen name="card_decision_date">16sp</dimen>
+  <dimen name="card_snippets">14sp</dimen>
+  <dimen name="card_counter">14sp</dimen>
+
+  <dimen name="content_title">24sp</dimen>
+  <dimen name="content_case_number">24sp</dimen>
+  <dimen name="content_decision_date">20sp</dimen>
+  <dimen name="content_meta_data">18sp</dimen>
+  <dimen name="content_snippets">18sp</dimen>
+  <dimen name="content_counter">18sp</dimen>
+
+  <dimen name="card_title_compact">20sp</dimen>
+  <dimen name="card_subtitle_compact">12sp</dimen>
+  <dimen name="card_content_compact">16sp</dimen>
+  <dimen name="card_subcontent_compact">14sp</dimen>
+
+  <dimen name="card_mins_no_compact">16sp</dimen>
+  <dimen name="card_mins_compact">9sp</dimen>
+</resources>

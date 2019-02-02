@@ -1,0 +1,36 @@
+<resources>
+  <string name="app_name">LexGo</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+
+  <string name="title_favourite">Favourites</string>
+  <string name="title_recent">Recent</string>
+  <string name="title_login">Login</string>
+  <string name="title_search">Search</string>
+  <string name="title_content">Content</string>
+  <string name="title_recommended">Recommended</string>
+
+  <string name="hint_username">Username</string>
+  <string name="hint_password">Password</string>
+  <string name="hint_department">Department</string>
+  <string name="hint_team">Team</string>
+  <string name="hint_message">Message</string>
+
+  <string name="action_search">Search</string>
+  <string name="action_login">Login</string>
+  <string name="action_filter">Filter</string>
+  <string name="action_collaborate">Collab</string>
+  <string name="action_save">Save</string>
+  <string name="action_cancel">Cancel</string>
+
+  <string name="search_empty_query">Search field is empty</string>
+  <string name="oops">Oops...</string>
+  <string name="no_results">No results found</string>
+
+  <string-array name="filter_item">
+    <item>Relevance</item>
+    <item>Timing</item>
+  </string-array>
+
+</resources>

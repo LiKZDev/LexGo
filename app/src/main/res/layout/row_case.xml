@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:id="@+id/caseLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_selector_ripple"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+      android:id="@+id/caseTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/card_title"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/caseNumber"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp"
+      android:textSize="@dimen/card_case_number" />
+
+    <TextView
+      android:id="@+id/decisionDate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp"
+      android:textSize="@dimen/card_decision_date" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp">
+
+      <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+          android:id="@+id/caseFollowing"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="@dimen/card_counter"
+          android:textStyle="bold" />
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="4dp"
+          android:text="Following"
+          android:textSize="@dimen/card_counter"
+          android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+          android:id="@+id/caseReferring"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="@dimen/card_counter"
+          android:textStyle="bold" />
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="4dp"
+          android:text="Referring"
+          android:textSize="@dimen/card_counter"
+          android:textStyle="bold" />
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+      android:id="@+id/caseSnippets"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:textSize="@dimen/card_snippets" />
+
+    <ImageView
+      android:id="@+id/favorite_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:clickable="true"
+      android:focusable="true"
+      android:src="@drawable/ic_favorite_border" />
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/cardviewHeaderLayout"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="5"-->
+    <!--android:background="@drawable/row_selector_ripple"-->
+    <!--android:clickable="true"-->
+    <!--android:focusable="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/busNoLayout"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginEnd="16dp"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:orientation="vertical"-->
+    <!--android:paddingStart="16dp"-->
+    <!--android:paddingLeft="16dp"-->
+    <!--android:paddingTop="8dp"-->
+    <!--android:paddingBottom="8dp">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/busNo"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="268"-->
+    <!--android:textColor="@color/primaryText"-->
+    <!--android:textSize="@dimen/card_title_compact" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/busOperator"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="bottom|center_horizontal"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:text="SMRT"-->
+    <!--android:textColor="@color/SMRTLight"-->
+    <!--android:textSize="@dimen/card_subtitle_compact" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_toEndOf="@+id/busNoLayout"-->
+    <!--android:layout_toRightOf="@+id/busNoLayout"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:paddingBottom="8dp">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--android:paddingTop="8dp">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/busStopDescription"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Opp Bishan Park"-->
+    <!--android:textColor="@color/primaryText"-->
+    <!--android:textSize="@dimen/card_content_compact" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/busStopRoad"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Ang Mo Kio Street 31"-->
+    <!--android:textColor="@color/secondaryText"-->
+    <!--android:textSize="@dimen/card_subcontent_compact" />-->
+    <!--</LinearLayout>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/popupMenuImageview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="top"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+    <!--android:clickable="true"-->
+    <!--android:focusable="true"-->
+    <!--android:src="@drawable/ic_more_vert" />-->
+    <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/cardviewResultsLayout"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="4"-->
+    <!--android:background="@drawable/fav_results_layout">-->
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/progressBar"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_centerInParent="true" />-->
+
+    <!--<GridView-->
+    <!--android:id="@+id/busResultsGridview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:background="@drawable/fav_results_layout"-->
+    <!--android:clickable="false"-->
+    <!--android:horizontalSpacing="1dp"-->
+    <!--android:numColumns="3"-->
+    <!--android:stretchMode="columnWidth"-->
+    <!--android:verticalSpacing="1dp" />-->
+    <!--</RelativeLayout>-->
+  </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/mainLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+      android:id="@+id/searchBarBackground"
+      android:layout_width="match_parent"
+      android:layout_height="72dp"
+      android:background="@color/colorPrimary"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark"
+      android:visibility="gone">
+    </FrameLayout>
+
+    <FrameLayout
+      android:id="@+id/contentLayout"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toTopOf="@+id/navigation"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/searchBarBackground" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/navigation"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="0dp"
+      android:layout_marginEnd="0dp"
+      android:background="?android:attr/windowBackground"
+      android:backgroundTint="@color/layoutNormalDark"
+      android:visibility="gone"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/contentLayout"
+      app:menu="@menu/navigation" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <com.arlib.floatingsearchview.FloatingSearchView
+    android:id="@+id/floatingSearchView"
+    android:layout_width="match_parent"
+    android:layout_height="567dp"
+    android:layout_margin="8dp"
+    android:searchSuggestThreshold="3"
+    android:visibility="gone"
+    app:floatingSearch_close_search_on_keyboard_dismiss="true"
+    app:floatingSearch_dimBackground="false"
+    app:floatingSearch_leftActionMode="showSearch"
+    app:floatingSearch_searchHint="@string/action_search"
+    app:floatingSearch_showMenuAction="true"
+    app:floatingSearch_showOverFlowMenu="true"
+    app:floatingSearch_showSearchKey="false"
+    app:floatingSearch_suggestionsListAnimDuration="250" />
+
+</FrameLayout>
